@@ -99,5 +99,8 @@
     "build:debug": "node tools/build",
     "deploy": "node tools/deploy.gh --release",
     "start": "node tools/start"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.9.0"
   }
 }
